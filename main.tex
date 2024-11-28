@@ -1,31 +1,42 @@
 \documentclass{document_layout}
 
 % Title and author information 
-\title{Title of the Paper}
-\author{Eduardo Barroso}
-\date{\today}
+\title{METROLOGY WITH SYNTHETIC FRINGE PATTERNS FOR THREE DIMENSIONAL SCANNING AND RECONSTRUCTION}
+\author{
+    Eduardo Barroso \address{1} and Alexandre Sauze \address{1} \\[0.3em]
+    {\scriptsize
+        \address{1} Department of Physics Engineering; Monterrey Institute of Technology, Monterrey, N.L 64849.\\
+    }
+}
+\date{December, 2022}
+
+\setabstract{
+    As of 2021, the digital revolution has shaped every industry thanks to the ever growing computational power accessible to the population. 
+    Thus, being able to digitally extract and process data has become a key virtue in many business worldwide. 
+    In this work, we aim to illustrate the working principles of a digital scanning technology called Moire by fringe displacement.
+    The team shows that with a projector, camera and a computer; it is possible to measure the depth of a 3D system. 
+    This has applications in diverse fields like: quality control, biomedical, archaeology and the fashion industry.
+    }
 
 % Begin the document
 \begin{document}
 
 \maketitle
 
-\begin{abstract}
-This is the abstract section. Summarize your paper here in a few sentences.
-\end{abstract}
-    
-\section*{Introduction}
-\input{Sections/introduction}
+\section{Introduction}
+\input{Sections/Introduction}
 
-\section*{Methods}
-%\input{Sections/methods}
+\section{Theoretical Framework}
+\input{Sections/TeoFrame}
 
-\section*{Conclusion}
-%\input{Sections/conclusion}
+\section{Results}
+\input{Sections/Results}
+
+\section{Conclusion}
+\input{Sections/Conclusion}
+
 
 % References
-\onecolumn
 \printbibliography
-\twocolumn
 
 \end{document}
